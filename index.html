@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f4943323d7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Google Map Project</title>
+  </head>
+  <body>
+    <audio controls="" autoplay="" loop="" allow="autoplay">
+      <source src="audios\EternalYouth.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="title">
+      Store Locator
+    </div>
+    <div class="search-container">
+      <div class="search">
+        <input type="search" name="search" placeholder="Enter Zip" id="zip-code-input">
+        <i class="fas fa-search" onclick="searchStores()" style="cursor: pointer;"></i>
+      </div>
+    </div>
+    <div class="stores-list-container">
+      <div class="stores-list">
+        <div class="store-container">
+          <div class="store-info-container">
+            <div class="store-address">
+              <span>8480 Beverly Blvd</span>
+              <span>Los Angeles, CA 90048</span>
+            </div>
+            <div class="store-phone-number">
+              356-345-4654
+            </div>
+          </div>
+          <div class="store-number-container">
+            <div class="store-number">
+              1
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="map"></div>
+    <script src="js\store-data.js"></script>
+    <script src="js\index.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLEW4S3JwYwrXkqQPc26o76hb7cRbO0Hs&callback=initMap" async="" defer=""></script>
+    <!--AIzaSyCLEW4S3JwYwrXkqQPc26o76hb7cRbO0Hs-->
+  </body>
+</html>
