@@ -5,3 +5,5 @@ This project was created using Javascript and Google Maps API allows the users t
 
 Here it is the link for the live preview : **https://webstain-storelocator.netlify.app/**
 PS: if you are going to clone this repository, Use your own GOOGLE Maps API, use Google Maps plateform documentation https://developers.google.com/maps/documentation/embed/get-api-key
+
+Quick Update: the website will not work properly because the google maps api key has expired, get a new one, and everything will work fine.
